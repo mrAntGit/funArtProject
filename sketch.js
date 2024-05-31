@@ -1,5 +1,5 @@
-let numLines = 700; // Number of lines
-let radius = 300; // Radius of the ornament
+let numLines = 700;
+let radius = 300;
 let angleOffset = 600;
 let angleIncrement;
 let stars = [];
