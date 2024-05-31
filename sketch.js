@@ -28,11 +28,11 @@ function setup() {
 }
 
 function draw() {
-  background(0); // Set background to black
+  background(0);
   
   
   let ornamentSize = 30;
-  let ornamentAngle = millis() * 0.0001; // Control spinning speed
+  let ornamentAngle = millis() * 0.0001;
   drawOrnament(0, 0, ornamentSize, ornamentAngle);
 
   
