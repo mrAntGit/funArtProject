@@ -4,7 +4,7 @@ class Star {
     this.y = random(windowHeight);
     this.baseSize = random(1, 3);
     this.size = this.baseSize;
-    this.twinkleSpeed = random(0.01, 0.05);
+    this.twinkleSpeed = random(0.01, 0.02);
     this.brightness = random(100, 255);
     this.twinkleDirection = 1;
     this.oscillationSpeed = random(0.01, 0.02); 
